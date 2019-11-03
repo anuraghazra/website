@@ -1,7 +1,7 @@
 ---
 title: "Lissajous Curve Table"
 video_number: 116
-date: 2018-10-02
+date: 2018-10-03
 video_id: --6eyLO78CY
 repository: CC_116_Lissajous
 web_editor: BJbj5l3Y7
@@ -54,6 +54,36 @@ contributions:
       url: "https://github.com/boguz"
     url: "https://codepen.io/lpato/full/KGebJa/"
     source: "https://codepen.io/lpato/full/KGebJa/"
+  - title: "ES6"
+    author:
+      name: "Arturs Jansons"
+      url: "https://github.com/iegik"
+    url: "https://codepen.io/iegik/full/MzwWqO/"
+    source: "https://codepen.io/iegik/pen/MzwWqO/"
+  - title: "Rose Based Lissajous In OpenGL"
+    author:
+      name: "dwdowsdi"
+      url: "https://github.com/dedowsdi"
+    url: "https://twitter.com/dedowsdi/status/1061174911962570752"
+    source: "https://github.com/dedowsdi/journey/tree/master/gl4/challenge/lissajous"
+  - title: "Lissajous Curve"
+    author:
+      name: "Guilherme Santos"
+      url: "https://github.com/gui-santos"
+    url: "https://codepen.io/gui_gsantos/full/KYNQmx"
+    source: "https://codepen.io/gui_gsantos/pen/KYNQmx"
+  - title: "Refactored Lissajous Curve"
+    author:
+      name: "Hari Krishnan"
+      url: "https://github.com/Hari3"
+    url: "https://editor.p5js.org/HariKrishnan/full/uGdTrs9uB"
+    source: "https://editor.p5js.org/HariKrishnan/sketches/uGdTrs9uB"
+  - title: "C++ Cinder (Cairo) Version"
+    author:
+      name: "Ayman"
+      url: "https://github.com/aymanmh"
+    source: "https://github.com/aymanmh/cinder/blob/master/LissajousCurveTable"
+    video_id: "g4TTVgyhGQo"
 ---
 
 In this Coding Challenge, I visualize a "Lissajous Curve Table" with Processing (Java).

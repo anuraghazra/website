@@ -4,6 +4,7 @@ video_number: 108
 date: 2018-06-21
 video_id: JFugGF1URNo
 repository: CC_108_barnsley_fern
+web_editor: G4V940Y8V
 
 links:
   - title: "Barnsley fern on Wikipedia"
@@ -38,6 +39,25 @@ contributions:
       url: "https://fraguilar.com"
     url: "https://www.instagram.com/p/Bmlttbvnm1U/"
     source: "https://github.com/fernand0aguilar/art-code-poetry/blob/master/Processing/Barnsley_Fern_ando/Barnsley_Fern_ando.pde"
+  - title: "C++/GLUT Barnsley Fern"
+    author:
+      name: "Jace McPherson"
+    url: "https://github.com/JaceyPenny/barnsley-fractal-cpp-glut"
+    source: "https://github.com/JaceyPenny/barnsley-fractal-cpp-glut"
+  - title: "Various Fractal Ferns"
+    author:
+      name: "Sujan Dutta"
+      url: "https://github.com/Suji04"
+    url: "https://suji04.github.io/fractal-ferns/"
+  - title: "Barnsley's Fern Rainbow"
+    author:
+      name: "Rodrigo de Oliveira"
+    url: "https://https://editor.p5js.org/drigo2212/full/_Di168OeV"
+    source: "https://https://editor.p5js.org/drigo2212/sketches/_Di168OeV"
+  - title: "Rainbow Fern"
+    author:
+      name: "Matthew Wallace"
+    url: "https://github.com/Waleigh/Barnsley-Fern"
+    source: "https://github.com/Waleigh/Barnsley-Fern/blob/master/rainbow_fern/rainbow_fern.pde"
 ---
-
 In this coding challenge, I visualize the Barnsley Fern fractal with Processing (Java).

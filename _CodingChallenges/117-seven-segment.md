@@ -4,6 +4,7 @@ video_number: 117
 date: 2018-10-15
 video_id: MlRlgbrAVOs
 repository: CC_117_SevenSegmentDisplay
+web_editor: O25p3JYxT
 
 links:
   - title: "Code"
@@ -99,6 +100,12 @@ contributions:
       url: "https://github.maks.com.br"
     url: "https://editor.p5js.org/Maksuel/full/rJ8gFndiQ"
     source: "https://editor.p5js.org/Maksuel/sketches/rJ8gFndiQ"
+  - title: "Glowing LED Watch"
+    author:
+      name: "Anurag Hazra"
+      url: "http://anuraghazra.github.io"
+    url: "https://anuraghazra.github.io/CanvasFun/sevenSegmentDisplay/"
+    source: "https://github.com/anuraghazra/CanvasFun/tree/master/sevenSegmentDisplay"
 ---
 
 In this coding challenge, I make a Seven-Segment Display with p5.js. This video is inspired by Tom Scott's: [What's The Longest Word You Can Write With Seven-Segment Displays?](https://youtu.be/zp4BMR88260).

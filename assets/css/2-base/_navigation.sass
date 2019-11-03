@@ -1,5 +1,6 @@
-.mobilenav-toggle
+#menu-button
   display: none
+  box-shadow: none
   justify-content: space-around
   align-items: center
   flex-direction: column
@@ -14,24 +15,28 @@
   top: 20px
   z-index: 10000
 
-  @media (max-width: $mobile)
+  @media (max-width: $tablet-big)
     display: flex
+    cursor: pointer
 
   span
-    width: 80%
+    width: 36px
     height: 0.15em
     display: inline-block
     background: #FFF
     border-radius: .075em
     transition: all 375ms $timing-function
-
+  &:hover,
+  &:focus
+    transform: none
+    box-shadow: none
 .navigation
-  position: absolute
+  position: fixed
   top: 0
   width: 100%
   z-index: 9000
 
-  @media (max-width: $mobile)
+  @media (max-width: $tablet-big)
     padding-top: 2rem
     width: auto
 
@@ -40,9 +45,10 @@
     height: 5rem
     font-size: 16px
     overflow: hidden
-    background: linear-gradient(rgba(0,0,0,0.2), transparent)
+    background: rgba(9,20,154,0.55)
 
-    @media (max-width: $mobile)
+    @media (max-width: $tablet-big)
+      width: 0%
       height: auto
       top: 10rem
       position: fixed
@@ -50,36 +56,49 @@
 
     .links
       @extend .wrapper
+      list-style-type: none
       height: 100%
       display: flex
       justify-content: center
       align-items: center
 
-      @media (max-width: $mobile)
+      @media (max-width: $tablet-big)
         flex-direction: column
         align-items: flex-start
         height: auto
         padding-left: 2rem
 
       a
+        display: block
+        list-style-type: none
         margin: 0em 1em
-        text-shadow: 0px 0px 5px #BBB
+        padding: 0 2px
         color: #FFF
+        border: 1px solid transparent
+        border-radius: 2px
         @include text-style('title')
         text-decoration: none
+        &:hover,
+          text-shadow: 0px 0px 5px #BBB
+        &:focus,
+          outline: none
+          border-color: $white
+          text-shadow: 0px 0px 5px #BBB
 
-        @media (max-width: $mobile)
+        @media (max-width: $tablet-big)
           visibility: hidden
           margin: 0.5em 0
           text-shadow: none
           background: $ct-blue
+          border: 2px solid $ct-blue
           padding: 0.7em 1em
           border-radius: $standard-border-radius
           opacity: 0
           transform: translateX(-3rem)
-
-          @for $i from 1 through 4
-            &:nth-child(#{abs($i - 5)})
+          &:focus
+            border-color: #00008b
+          @for $i from 1 through 5
+            &:nth-child(#{abs($i - 6)})
               transition:
                 property: all
                 duration: 150ms
@@ -91,36 +110,34 @@
 .mobilenav-backdrop
   transition: filter 375ms $timing-function
 
-#nav-toggle
-  display: none
+#menu-button
+  ~ .mobilenav-backdrop.active
+    @media (max-width: $tablet-big)
+      filter: blur(10px)
+      pointer-events: none
 
-  &:checked
-    ~ .navigation
-      @media (max-width: $mobile)
-        position: fixed
-        top: 0
-        left: 0
-        bottom: 0
-        right: 0
+  ~ .mobilenav-toggle.active span:nth-child(2)
+    transform: translateX(20%)
 
-    ~ .mobilenav-backdrop
-      @media (max-width: $mobile)
-        filter: blur(10px)
-        pointer-events: none
+  ~ .navigation.active
+    @media (max-width: $tablet-big)
+      background: rgba(#FFF, 0.5)
+      position: fixed
+      top: 0
+      left: 0
+      bottom: 0
+      right: 0
+    nav
+      width: 100%
 
-    ~ .mobilenav-toggle span:nth-child(2)
-      transform: translateX(20%)
-
-    ~ .navigation
-      @media (max-width: $mobile)
-        background: rgba(#FFF, 0.5)
-
-      nav .links a
-        @media (max-width: $mobile)
+    nav .links li
+      @media (max-width: $tablet-big)
+        a
           visibility: visible
           opacity: 1
           transform: translateX(0rem)
 
-        @for $i from 1 through 4
-          &:nth-child(#{$i})
+      @for $i from 1 through 5
+        &:nth-child(#{$i})
+          a
             transition-delay: ($i - 1) * 75ms

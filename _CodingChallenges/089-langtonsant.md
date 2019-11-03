@@ -2,9 +2,10 @@
 title: "Langton's Ant"
 redirect_from: CodingChallenges/89-langtonsant.html
 video_number: 89
-date: 2018-01-07
+date: 2018-01-08
 video_id: G1EgjgMo48U
 repository: CC_089_langtonsant
+web_editor: svbAzt8sb
 
 contributions:
   - title: "Langton's Paint Brush Using Processing"
@@ -24,6 +25,18 @@ contributions:
       url: "https://github.com/omareq"
     url: "https://omareq.github.io/langtons-ant/"
     source: "https://github.com/omareq/omareq.github.io/tree/master/langtons-ant"
+  - title: "Interactive Langton's Ant"
+    author:
+      name: "Dom"
+      url: "https://github.com/DomKiki"
+    url: "https://editor.p5js.org/DomKiki/sketches/XGefxlwK4"
+    source: "https://github.com/DomKiki/Langton-Ant"
+  - title: "Pure HTML langton's ant"
+    author:
+      name: "Abhishek Choudhary"
+      url: "https://theabbie.github.io"
+    url: "https://theabbie.github.io/files/grid.html"
+    source: "https://raw.githubusercontent.com/theabbie/theabbie.github.io/master/files/grid.html"
 
 links:
   - title: "Langton's Ant on Wikipedia"

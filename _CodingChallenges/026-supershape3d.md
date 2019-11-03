@@ -17,6 +17,17 @@ links:
   - title: "Peasycam"
     url: "http://mrfeinberg.com/peasycam/"
     author: Jonathan Feinberg
+videos:
+  - title: "Coding Challenge: Spherical Geometry"
+    author: "The Coding Train"
+    url: "/CodingChallenges/025-spheregeometry"
+contributions:
+  - title: "3D SuperShape in WEBGL"
+    author:
+      name: "Carlos"
+      url: "https://www.openprocessing.org/user/142183"
+    url: "https://www.openprocessing.org/sketch/651525"
+    source: "https://editor.p5js.org/carlos.henrique2324@gmail.com/sketches/HJF28pVME"
 ---
 
 In this coding challenge, I use the "superformula" to make a 3D "supershape" in Processing.  This is part 4 of a multi-part series on superformulas, superellipses and supershapes
